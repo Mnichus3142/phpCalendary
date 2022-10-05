@@ -1,0 +1,47 @@
+body 
+{
+    background-color: var(--phthalo_green);  
+    color: var(--slimy_green);
+    font-family: 'Roboto Mono', monospace;
+    font-size: 120%;
+    font-weight: bold;
+}
+
+.cells
+{
+    border: 4px solid var(--slimy_green);
+    border-radius: 10px;
+
+    min-width: 200px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+ .container 
+{
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    text-align: center;
+    width: fit-content;
+    top: 10vh;
+}
+
+.change
+{
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    text-align: center;
+    width: fit-content;
+    top: 2vh;
+
+    border: 4px solid var(--slimy_green);
+    border-radius: 10px;
+
+    padding: 10px;
+}

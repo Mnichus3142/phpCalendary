@@ -57,6 +57,8 @@ body
     font-weight: bold;
 
     transition: all 0.2s;
+
+    cursor: pointer;
 }
 
 .change input:hover 

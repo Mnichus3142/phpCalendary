@@ -40,8 +40,37 @@ body
     width: fit-content;
     top: 2vh;
 
-    border: 4px solid var(--text-color);
     border-radius: 5px;
 
     padding: 10px;
+}
+
+.change input
+{
+    background-color: var(--background);
+    border: 4px solid var(--text-color);
+    border-radius: 5px;
+    padding: 5px;
+    color: var(--text-color);
+    font-family: 'Roboto Mono', monospace;
+    font-size: 100%;
+    font-weight: bold;
+
+    transition: all 0.2s;
+}
+
+.change input:hover 
+{
+    color: var(--background);
+    background-color: var(--text-color);
+
+    transition: all 0.2s;
+}
+
+.change input:focus
+{
+    color: var(--background);
+    background-color: var(--text-color);
+
+    transition: all 0.2s;
 }

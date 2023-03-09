@@ -14,9 +14,8 @@
 <body>
     <div class="change">
         <form action="index.php" method="POST">
-            <label for="month">Wybierz miesiąc</label>
             <input type="month" id="month" name="month">
-            <input type="submit" value="Przejdź" name="submit">
+            <input type="submit" value="Go" name="submit">
         </form>
     </div>
     <div class="container">

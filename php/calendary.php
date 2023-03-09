@@ -52,8 +52,6 @@
 
             $table .= "</tr>";
 
-            //WŁAŚCIWY PROJEKT
-
             $dayCounter = cal_days_in_month(CAL_GREGORIAN,$this->month,$this->year);
 
             $actualMonth = date('m');
